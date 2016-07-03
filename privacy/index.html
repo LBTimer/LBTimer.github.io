@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta name="author" content="Ivan Nokonoko">
+    <meta name="description" content="Task counter & timer for Lionbridge and Leapforce raters, integrated with Google Drive">
+    <meta name="keywords" content="lbtimer,timer,rater,tasks,lionbridge,leapforce">
+    <title>LBTimer's privacy policy</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="..css/style.css">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="../img/lb16.png" />
+    <style>
+      input{display:none}
+      ul>li{list-style-type: none}
+      label{line-height: 1em; background-color:#fff;display:block;width:95%;position:relative;cursor:pointer;padding:10px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;margin-top:20px}
+      label::after{
+        content:"+";
+        position:absolute;
+        right:10px;
+        margin:0 auto;
+      }
+      label:hover,:checked + label:hover{background-color:#fb2}
+      :checked + label{border-bottom-left-radius: 0;border-bottom-right-radius: 0;border-bottom: 1px solid #f90;background-color:#fec}
+      :checked + label::after{content:"-"}
+      li>div{ max-height: 0;overflow: hidden;background-color:#fff;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+      :checked ~ div{width:95%;padding:10px;margin-bottom: 20px;max-height: 2000px}
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <a href="../index.html" title=LBTimer><img src="../img/lb96.png" alt="LBTimer"> LBTimer</a>
+      <a href="../help/" title=Help>Help</a>
+      <a href="../contact/" title=Contact>Contact</a>
+    </div>
+    <div class=content>
+      <ul>
+        <li>
+          <input id=privacy type=checkbox checked><label for=privacy>Privacy policy</label>
+          <div>
+            <p>LBTimer neither uses nor stores any personal information.</p>
+            <p>It uses, however, Google's OAuth2 authentication system to connect to your Google Drive&#x2122;, where the time and tasks records are stored. If you want to review Google's privacy policies, you can do it <a href="https://www.google.com/policies/privacy" target="_blank">here</a>.</p>
+            <p>This website features Google+ and Twitter buttons. Google privacy policies can be reviewed in the link above. You can view Twitter's privacy policy <a href="https://twitter.com/privacy" target=_blank>here</a>.</p>
+          </div>
+        </li>
+      </ul>
+   </div>
+  </body>
+</html>
