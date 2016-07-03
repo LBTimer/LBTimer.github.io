@@ -7,7 +7,6 @@ a,a:visited,a:hover,a:active {text-decoration: none;color:blue}
 img{vertical-align:middle}
 #header a{text-decoration:none;margin-left:20px;font:400 18px 'Open Sans',sans-serif;color:#fff}
 #header a img{height:18px;width:18px;position:relative;top:2px;vertical-align: baseline}
-
 footer{max-width:800px;text-align: center; font-size:12px;margin:0 auto;line-height:14px;color:#222;}
 section{background-color:#fff;padding:4em 1em;text-align:center;color:#333}
 section p{font-size:16px;max-width: 800px;margin:20px auto;text-align: justify;word-wrap: break-word}
@@ -17,12 +16,9 @@ section p{font-size:16px;max-width: 800px;margin:20px auto;text-align: justify;w
 .comments{border-top:1px solid #ddd}
 .comments p{text-align: center}
 .hl{position:absolute;border:4px dashed red}
-
 figure{position:relative;display:inline-block;margin:0 0 24px 40px}
 figure img{display:inline-block;border:1px solid #222}
 figcaption{position:absolute;bottom:-18px;font-size:12px}
-
 .present{text-align:center;margin:0 auto;max-width:600px;position:relative}
 .lbt{font:bold 35px sans-serif;margin:0 auto;padding:0 1em}
-
 .content{position:relative;top:50px}
